@@ -1,6 +1,1 @@
-function linearSearch(arr, target) {
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] === target) return i;
-  }
-  return -1;
-}
+const capitalize = (str) => str[0].toUpperCase() + str.slice(1);
